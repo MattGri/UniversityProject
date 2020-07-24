@@ -94,3 +94,31 @@ a:hover {
     color: white;
     background-color: blue;
 }
+
+#cennik {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.nag1 {
+    height: 35vh;
+    width: 551px;
+    background-color: gray;
+}
+
+.tło {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(77, 121, 255, 0.5);
+}
+
+.nag1 p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.nag1 p:nth-of-type(odd) {
+    color: black;
+}
