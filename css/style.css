@@ -122,3 +122,59 @@ a:hover {
 .nag1 p:nth-of-type(odd) {
     color: black;
 }
+
+#kontakt {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.adres {
+    padding: 30px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+
+.adres h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.adres p {
+    color: blue;
+}
+
+.telefon {
+    padding: 30px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.telefon h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.telefon p {
+    color: blue;
+}
+
+.email {
+    padding: 30px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+
+.email h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.email p {
+    color: blue;
+}
