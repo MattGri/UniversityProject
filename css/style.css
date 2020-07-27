@@ -44,7 +44,7 @@ a:hover {
 
 .img {
     height: 80vh;
-    background-image: url("/img/photo1.jpg");
+    background-image: url('/img/photo1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -177,4 +177,27 @@ a:hover {
 
 .email p {
     color: blue;
+}
+
+.pho {
+    height: 80vh;
+    background-image: url('/img/photo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.tło1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 0, 255, 0.5);
+}
+
+footer {
+    height: 35px;
+    width: 100vw;
+    background-color: black;
+    color: grey;
+    text-align: center;
 }
